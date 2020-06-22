@@ -1,0 +1,65 @@
+
+(object Petal
+    version    	50
+    _written   	"Rose 2006.0.0.060314"
+    charSet    	134)
+
+(object Class_Category "统计分析"
+    is_unit    	TRUE
+    is_loaded  	TRUE
+    quid       	"5EF057B9019E"
+    visible_categories 	(list visibility_relationship_list
+	(object Visibility_Relationship
+	    quid       	"5EF05A6F03DF"
+	    supplier   	"Use Case View::Use-Case Model::Use Cases::后台::教学管理"
+	    quidu      	"5EF058D8014C")
+	(object Visibility_Relationship
+	    quid       	"5EF05A870375"
+	    supplier   	"Use Case View::Use-Case Model::Use Cases::后台::资源管理"
+	    quidu      	"5EF0575900E8")
+	(object Visibility_Relationship
+	    quid       	"5EF05A9C0330"
+	    supplier   	"Use Case View::Use-Case Model::Use Cases::后台::培训管理"
+	    quidu      	"5EF0574101D4")
+	(object Visibility_Relationship
+	    quid       	"5EF05AA903D2"
+	    supplier   	"Use Case View::Use-Case Model::Use Cases::后台::测评考试"
+	    quidu      	"5EF0574D021E"))
+    exportControl 	"Public"
+    logical_models 	(list unit_reference_list
+	(object Class_Category "用户信息报表"
+	    quid       	"5EF0633000BB"
+	    exportControl 	"Public"
+	    logical_models 	(list unit_reference_list)
+	    logical_presentations 	(list unit_reference_list))
+	(object Class_Category "课程过程报表"
+	    quid       	"5EF063460156"
+	    exportControl 	"Public"
+	    logical_models 	(list unit_reference_list)
+	    logical_presentations 	(list unit_reference_list))
+	(object Class_Category "课程完成报表"
+	    quid       	"5EF0635A0038"
+	    exportControl 	"Public"
+	    logical_models 	(list unit_reference_list)
+	    logical_presentations 	(list unit_reference_list))
+	(object Class_Category "培训计划使用情况报表"
+	    quid       	"5EF063670151"
+	    exportControl 	"Public"
+	    logical_models 	(list unit_reference_list)
+	    logical_presentations 	(list unit_reference_list))
+	(object Class_Category "登录信息统计"
+	    quid       	"5EF0638600EA"
+	    exportControl 	"Public"
+	    logical_models 	(list unit_reference_list)
+	    logical_presentations 	(list unit_reference_list))
+	(object Class_Category "培训计划过程报表"
+	    quid       	"5EF063960291"
+	    exportControl 	"Public"
+	    logical_models 	(list unit_reference_list)
+	    logical_presentations 	(list unit_reference_list))
+	(object Class_Category "培训计划完成报表"
+	    quid       	"5EF063AA01A4"
+	    exportControl 	"Public"
+	    logical_models 	(list unit_reference_list)
+	    logical_presentations 	(list unit_reference_list)))
+    logical_presentations 	(list unit_reference_list))
